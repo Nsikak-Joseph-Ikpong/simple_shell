@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- **_strncpy - copies a string
- *@dest: the destination string to be copied to
+ **_strncpy - copies a string, Duplicates a string.
+ *@dest: the destination string to be copied to, The target string for copying.
  *@src: the source string
- *@n: the amount of characters to be copied
+ *@n: the amount of characters to be copied, The number of characters to be replicated.
  *Return: the concatenated string
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -31,11 +31,11 @@ char *_strncpy(char *dest, char *src, int n)
 }
 
 /**
- **_strncat - concatenates two strings
- *@dest: the first string
+ **_strncat - concatenates two strings, joins two strings
+ *@dest: the first string, initial string
  *@src: the second string
- *@n: the amount of bytes to be maximally used
- *Return: the concatenated string
+ *@n: the amount of bytes to be maximally used, The maximum number of bytes to be utilized.
+ *Return: the concatenated string, the joint string
  */
 char *_strncat(char *dest, char *src, int n)/*Prototype*/
 {
@@ -58,9 +58,9 @@ char *_strncat(char *dest, char *src, int n)/*Prototype*/
 }
 
 /**
- **_strchr - locates a character in a string
- *@s: the string to be parsed
- *@c: the character to look for
+ **_strchr - locates a character in a string, Finds a character within a string.
+ *@s: the string to be parsed, The string to be analyzed.
+ *@c: the character to look for, The character to search for.
  *Return: (s) a pointer to the memory area s
  */
 char *_strchr(char *s, char c)/*Prototype*/

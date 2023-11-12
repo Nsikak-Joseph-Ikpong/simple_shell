@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * get_history_file - gets the history file
+ * get_history_file - gets the history file, Retrieves the historical file.
  * @info: parameter struct
  *
  * Return: allocated string containg history file
@@ -54,7 +54,7 @@ int write_history(info_t *info)
 }
 
 /**
- * read_history - reads history from file
+ * read_history - reads history from file, Reads historical data from a file.
  * @info: the parameter struct
  *
  * Return: histcount on success, 0 otherwise
@@ -103,7 +103,7 @@ int read_history(info_t *info)
 }
 
 /**
- * build_history_list - adds entry to a history linked list
+ * build_history_list - adds entry to a history linked list, Appends an entry to a linked list of historical records.
  * @info: Structure containing potential arguments. Used to maintain
  * @buf: buffer
  * @linecount: the history linecount, histcount
@@ -124,7 +124,7 @@ int build_history_list(info_t *info, char *buf, int linecount)
 }
 
 /**
- * renumber_history - renumbers the history linked list after changes
+ * renumber_history - renumbers the history linked list after changes, Updates the sequence numbers in the history linked list following modifications.
  * @info: Structure containing potential arguments. Used to maintain
  *
  * Return: the new histcount
