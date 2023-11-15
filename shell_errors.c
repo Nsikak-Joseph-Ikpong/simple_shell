@@ -20,7 +20,7 @@ void _eputs(char *str)
 }
 
 /**
- * _eputchar - writes the character c to stderr / Outputs the character 'c' to the standard error stream (stderr)
+ * _eputchar - writes the character c to stderr / Outputs the character 'c'
  * @c: The character to print / characters intended to be printed
  *
  * Return: On success 1.
@@ -42,7 +42,7 @@ int _eputchar(char c)
 }
 
 /**
- * _putfd - writes the character c to given fd / Outputs the character 'c' to the specified file descriptor (fd).
+ * _putfd - writes the character c to given fd / Outputs the character 'c'
  * @c: The character to print / character intended to be printed
  * @fd: The file descriptor to write to / The file descriptor for writing.
  *

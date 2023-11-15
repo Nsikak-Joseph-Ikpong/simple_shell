@@ -45,7 +45,7 @@ void set_info(info_t *info, char **av)
 }
 
 /**
- * free_info - frees info_t struct fields, Deallocates the fields of the info_t structure.
+ * free_info - frees info_t struct fields.
  * @info: struct address
  * @all: true if freeing all fields
  */

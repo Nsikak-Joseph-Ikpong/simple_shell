@@ -65,7 +65,7 @@ void _puts(char *str)
 }
 
 /**
- * _putchar - writes the character c to stdout, Prints the character 'c' to the standard output.
+ * _putchar - writes the character c to stdout.
  * @c: The character to print, The displayed character
  *
  * Return: On success 1.

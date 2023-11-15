@@ -81,7 +81,7 @@ int print_alias(list_t *node)
 }
 
 /**
- * _myalias - Imitates the functionality of the alias built-in command (man alias)
+ * _myalias - Imitates the functionality of the alias built-in command
  * @info: A structure that holds potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0

@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * _strlen - returns the length of a string, Provides the size or length of a given string.
- * @s: the string whose length to check, Check the length of the given string.
+ * _strlen - returns the length of a string.
+ * @s: the string whose length to check.
  *
  * Return: integer length of string
  */
@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 /**
- * _strcmp - performs lexicographic comparison of two strings, Conducts a lexicographic comparison between two strings.
+ * _strcmp - performs lexicographic comparison of two strings.
  * @s1: the first string
  * @s2: the second string
  *
@@ -41,7 +41,7 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
- * starts_with - checks if needle starts with haystack, Examines whether the beginning of the haystack matches the needle.
+ * starts_with - checks if needle starts with haystack.
  * @haystack: string to search
  * @needle: the substring to find
  *
